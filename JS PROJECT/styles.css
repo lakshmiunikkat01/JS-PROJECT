@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #10bce2;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+#game-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#game-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.target {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: url('tomato.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+#bullet {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: yellow;
+    border-radius: 50%;
+    display: none;
+}
+
+#score {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#timer {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#restart-btn {
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#restart-btn:hover {
+    background-color: #45a049;
+}
